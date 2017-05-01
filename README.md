@@ -1,6 +1,6 @@
 <h1>Information</h1>
 
-<p>This is a simple whois look-up tool for querying hash,ip,domain,url information from popular services like AlienVault OTX and Virus Total. Currently it supports OTX and AV but more serivces could be added with with ease.</p>
+<p>This is a simple whois look-up tool for querying hash ip domain and url information from popular services like AlienVault OTX and Virus Total. Currently it supports OTX and AV but more serivces could be added with with ease. For Linux the default whois client can be used for lookup. On windows the sysinternals tool requires a period in the name so netcat must be used for lookup. </p>
 
 <h2><u>Requirements</u></h2>
 <ul>
