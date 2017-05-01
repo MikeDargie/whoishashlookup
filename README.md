@@ -1,6 +1,6 @@
 <h2>Information</h2>
 
-<p>This is a simple whois look-up tool for querying hash,ip,domain,url information from popular services like AlienVault OTX and Virus total. Currently it supports OTX and AV but more serivces could be added with with ease.</p>
+<p>This is a simple whois look-up tool for querying hash,ip,domain,url information from popular services like AlienVault OTX and Virus Total. Currently it supports OTX and AV but more serivces could be added with with ease.</p>
 
 <h3><u>Requirements</u></h3>
 <p>VirusTotal_API_Tool</p>
@@ -10,9 +10,10 @@
 <h3>GUIDE</h3>
 
 <code>
-     <p>cd /etc/xinetd.d</p>
-     <p>vim whois</p>
+     cd /etc/xinetd.d
+     vim whois
 </code>
+
 <p>#edit the file and add:</p>
 
 <code>
@@ -32,10 +33,10 @@
 </code>
 
 <code>
-     cd /script/location/
-
-     vim script.sh
+cd /script/location/
+vim script.sh
 </code>
+
 <code>
 
 #!/bin/bash
