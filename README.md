@@ -9,7 +9,7 @@ jq
 cd /etc/xinetd.d/
 vim whois
 
-#edit the file and add
+edit the file and add
 
 <code>
 
@@ -87,19 +87,27 @@ done
 
 </code>
 
-#How to query from remote host
+How to query from remote host
 
-#Linux
-#Requirement:
-#Whois (default client - you can apt-get install it. apt-get install whois)
+Linux
 
+Requirement:
+
+Whois (default client - you can apt-get install it. apt-get install whois)
+
+<code>
 whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
-#To complete a look up you have 3 options
-#SERVER = shareataxii.com
-#TYPE = ip | domain | hash | url
-#OUTPUT FORMAT = json (any other input will give you csv output)
+</code>
 
-#Example results:
+To complete a look up you have 3 options
+
+SERVER = shareataxii.com
+
+TYPE = ip | domain | hash | url
+
+OUTPUT FORMAT = json (any other input will give you csv output)
+
+Example results:
 <code>
      
      Virus Total
