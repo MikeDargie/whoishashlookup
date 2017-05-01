@@ -9,7 +9,11 @@
 <li>jq</li></p>
 </ul>
 <h2>GUIDE</h2>
-<h3>Ensure that xinet is running as a service. run /etc/init/xinetd start|restart if needed. Check netstat -tupln to see if the port is listening and make sure that ufw is allowing access over port 43</h3>
+<ul>
+<h4><li>Ensure that xinetd is running as a service. run /etc/init/xinetd start|restart if needed.</li>
+
+<li>Check netstat -tupln to see if the port is listening and make sure that ufw is allowing access over port 43</li></h4>
+</ul>
 <code>
 
      cd /etc/xinetd.d
