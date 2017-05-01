@@ -47,11 +47,13 @@
 <h2>Linux</h2>
 
 <code>
-whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
+whois -h [SERVER] [VALUE] [TYPE] [OUTPUT FORMAT]
 </code>
 
 <ul>
 <h4><li>SERVER = shareataxii.com</li></h4>
+
+<h4><li>VVALUE = what ever you choose</li></h4>
 
 <h4><li>TYPE = [ip | domain | hash | url]</li></h4>
 
@@ -462,9 +464,22 @@ whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
 </code>
 <h2>Windows</h2>
 
-<h3>Requirement:</h3>
+<code>
 
-<h4>-ncat (whois clients will not work on windows)</h4>
+     nc shareataxii.com 43
+</code>
+<h4> This creates the connection - Then input the options</h4>
+<code>
 
+      [Value] [TYPE] [OUTPUT FORMAT]
+</code>
+
+<ul>
+<h4><li>Value = what ever you choose</li></h4>
+
+<h4><li>TYPE = [ip | domain | hash | url]</li></h4>
+
+<h4><li>OUTPUT FORMAT = json (any other input will give you csv output)</li></h4>
+</ul>
 
 
