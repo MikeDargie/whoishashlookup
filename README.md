@@ -183,8 +183,6 @@ whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
         Panda                   True    Generic Malware
         Qihoo-360               True    Win32/Backdoor.eec
 
--------------------------------------------
-
 Alien Vault OTX
 
 {
