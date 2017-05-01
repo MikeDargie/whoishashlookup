@@ -1,10 +1,9 @@
-# whoishashlookup
-Set-up to search for hashing from a local "whois server"
+<p>Set-up to search for hashing from a local "whois server"</p>
 
-#Requirements
-VirusTotal_API_Tool
-xinetd
-jq
+<h3><u>Requirements</u></h3>
+<h4>VirusTotal_API_Tool</h4>
+<h4>xinetd</h4>
+<h4>jq</h4>
 
 cd /etc/xinetd.d/
 vim whois
@@ -89,7 +88,7 @@ done
 
 How to query from remote host
 
-Linux
+<h2>Linux</h2>
 
 Requirement:
 
@@ -103,7 +102,7 @@ To complete a look up you have 3 options
 
 SERVER = shareataxii.com
 
-TYPE = ip | domain | hash | url
+TYPE = [ip | domain | hash | url]
 
 OUTPUT FORMAT = json (any other input will give you csv output)
 
@@ -509,8 +508,10 @@ Example results:
      }
 
 </code>
-#Windows
-#Requirement:
+<h2>Windows</h2>
+
+Requirement:
+
 -ncat (whois clients will not work on windows)
 
 
