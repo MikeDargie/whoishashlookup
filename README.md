@@ -9,11 +9,6 @@
 <li>jq</li></p>
 </ul>
 <h2>GUIDE</h2>
-<ul>
-<h4><li>Ensure that xinetd is running as a service. run /etc/init/xinetd start|restart if needed.</li>
-
-<li>Check netstat -tupln to see if the port is listening and make sure that ufw is allowing access over port 43</li></h4>
-</ul>
 <code>
 
      cd /etc/xinetd.d
@@ -36,6 +31,12 @@
 </code>
 
 <h2>How to query from remote host</h2>
+
+<ul>
+<h4><li>Ensure that xinetd is running as a service. run /etc/init/xinetd start|restart if needed.</li>
+
+<li>Check netstat -tupln to see if the port is listening and make sure that ufw is allowing access over port 43</li></h4>
+</ul>
 
 <h2>Linux</h2>
 
