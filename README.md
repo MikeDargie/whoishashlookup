@@ -11,6 +11,7 @@
 <h2>GUIDE</h2>
 
 <code>
+
      cd /etc/xinetd.d
      vim whois
 </code>
@@ -18,6 +19,7 @@
 <h3>Edit the file and add:</h3>
 
 <code>
+
      service whois                                                                                                         
      {                                                                                                                          
         port           = 43                                                                                              
