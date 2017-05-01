@@ -3,9 +3,11 @@
 <p>This is a simple whois look-up tool for querying hash,ip,domain,url information from popular services like AlienVault OTX and Virus Total. Currently it supports OTX and AV but more serivces could be added with with ease.</p>
 
 <h3><u>Requirements</u></h3>
-<p>VirusTotal_API_Tool</p>
-<p>xinetd</p>
-<p>jq</p>
+<p>VirusTotal_API_Tool
+<br>
+xinetd
+<br>
+jq</p>
 
 <h3>GUIDE</h3>
 
