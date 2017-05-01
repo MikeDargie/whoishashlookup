@@ -183,324 +183,322 @@ whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
         Panda                   True    Generic Malware
         Qihoo-360               True    Win32/Backdoor.eec
 
-Alien Vault OTX
+     Alien Vault OTX
 
-{
-  "indicator": "1e1b0d16a16cf5c7f3a7c053ce78f515",
-  "sections": [
-    "general",
-    "analysis"
-  ],
-  "type_title": "FileHash-MD5",
-  "pulse_info": {
-    "count": 4,
-    "references": [
-      "https://app.box.com/s/c95me2uocwoothfnapxrcjwfmynue4ri",
-      "https://labs.bitdefender.com/wp-content/uploads/downloads/2013/04/MiniDuke_Paper_Final.pdf",
-      "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf",
-      "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf"
-    ],
-    "pulses": [
-      {
-        "pulse_source": "web",
-        "subscriber_count": 63,
-        "is_following": false,
-        "modified_text": "59 days ago ",
-        "is_subscribing": false,
-        "references": [
-          "https://app.box.com/s/c95me2uocwoothfnapxrcjwfmynue4ri"
-        ],
-        "vote": 0,
-        "id": "58b8a46ddae7a90966de13e1",
-        "industries": [],
-        "author": {
-          "username": "nightingale",
-          "is_subscribed": false,
-          "avatar_url": "https://otx20-web-media.s3.amazonaws.com/media/avatars/user_25380/resized/80/avatar_468b7010b8.png",
-          "is_following": false,
-          "id": "5882b004b0633d097920c13a"
-        },
-        "cloned_from": null,
-        "comment_count": 0,
-        "follower_count": 0,
-        "public": true,
-        "indicator_type_counts": {
-          "hostname": 1,
-          "SHA256": 2,
-          "SHA1": 1,
-          "MD5": 2
-        },
-        "TLP": "white",
-        "description": "",
-        "tags": [],
-        "in_group": false,
-        "is_modified": false,
-        "upvotes_count": 0,
-        "targeted_countries": [],
-        "groups": [],
-        "validator_count": 0,
-        "is_author": false,
-        "adversary": "APT 29",
-        "observation": {
-          "observation_created": "2017-03-02T23:02:06",
-          "description": "",
-          "title": "",
-          "access_reason": "",
-          "is_active": 1,
-          "access_type": "public",
-          "content": "",
-          "pulse_key": "58b8a46ddae7a90966de13e1",
-          "role": null,
-          "expiration": null
-        },
-        "locked": false,
-        "name": "Analysis of a stage 3 Miniduke sample (2013)",
-        "created": "2017-03-02T23:02:05.888",
-        "downvotes_count": 0,
-        "modified": "2017-03-02T23:02:05.888",
-        "export_count": 2,
-        "indicator_count": 6,
-        "votes_count": 0
-      },
-      {
-        "pulse_source": "web",
-        "subscriber_count": 68,
-        "is_following": false,
-        "modified_text": "60 days ago ",
-        "is_subscribing": false,
-        "references": [
-          "https://labs.bitdefender.com/wp-content/uploads/downloads/2013/04/MiniDuke_Paper_Final.pdf"
-        ],
-        "vote": 0,
-        "id": "58b7f4dbfd95e73876f1a4fd",
-        "industries": [],
-        "author": {
-          "username": "nightingale",
-          "is_subscribed": false,
-          "avatar_url": "https://otx20-web-media.s3.amazonaws.com/media/avatars/user_25380/resized/80/avatar_468b7010b8.png",
-          "is_following": false,
-          "id": "5882b004b0633d097920c13a"
-        },
-        "cloned_from": null,
-        "comment_count": 0,
-        "follower_count": 0,
-        "public": true,
-        "indicator_type_counts": {
-          "URL": 14,
-          "domain": 4,
-          "CVE": 2,
-          "hostname": 2,
-          "MD5": 66
-        },
-        "TLP": "white",
-        "description": "This piece of malware is made of three components: pdf, main, payload. The PDF file embeds exploit code and a dropper that writes the “main” DLL component on the drive. Additionally, the original PDF also contains a clean PDF file used in the social engineering stage",
-        "tags": [
-          "miniduke",
-          "russia"
-        ],
-        "in_group": true,
-        "is_modified": false,
-        "upvotes_count": 0,
-        "targeted_countries": [],
-        "groups": [
-          {
-            "name": "MISP FEED",
-            "id": 76
-          }
-        ],
-        "validator_count": 0,
-        "is_author": false,
-        "adversary": "APT 29",
-        "observation": {
-          "observation_created": "2017-03-02T10:33:00",
-          "description": "",
-          "title": "",
-          "access_reason": "",
-          "is_active": 1,
-          "access_type": "public",
-          "content": "",
-          "pulse_key": "58b7f4dbfd95e73876f1a4fd",
-          "role": null,
-          "expiration": null
-        },
-        "locked": false,
-        "name": "A Closer Look at MiniDuke (2013)",
-        "created": "2017-03-02T10:32:59.819",
-        "downvotes_count": 0,
-        "modified": "2017-03-02T10:32:59.819",
-        "export_count": 6,
-        "indicator_count": 88,
-        "votes_count": 0
-      },
-      {
-        "pulse_source": "web",
-        "subscriber_count": 3,
-        "is_following": false,
-        "modified_text": "69 days ago ",
-        "is_subscribing": false,
-        "references": [
-          "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf"
-        ],
-        "vote": 0,
-        "id": "58ab988907a7f105fe2825fa",
-        "industries": [
-          "Government",
-          "Healthcare"
-        ],
-        "author": {
-          "username": "hsd1.tx.comcast.",
-          "is_subscribed": false,
-          "avatar_url": "https://otx.alienvault.com/static/img/default.png",
-          "is_following": false,
-          "id": "58ab91a4ac3cdc15332c7b4c"
-        },
-        "cloned_from": "58ab8350ac3cdc0e642c7b4d",
-        "comment_count": 0,
-        "follower_count": 0,
-        "public": true,
-        "indicator_type_counts": {
-          "URL": 2,
-          "domain": 3,
-          "CVE": 1,
-          "hostname": 2,
-          "MD5": 9
-        },
-        "TLP": "white",
-        "description": null,
-        "tags": [
-          "Russia"
-        ],
-        "in_group": false,
-        "is_modified": false,
-        "upvotes_count": 0,
-        "targeted_countries": [
-          "Ukraine",
-          "Belgium",
-          "Portugal",
-          "Romania",
-          "Czech Republic",
-          "Ireland",
-          "United States",
-          "Hungary"
-        ],
-        "groups": [],
-        "validator_count": 0,
-        "is_author": false,
-        "adversary": "Miniduke",
-        "observation": {
-          "observation_created": "2017-02-21T01:31:54",
-          "description": "",
-          "title": "",
-          "access_reason": "",
-          "is_active": 1,
-          "access_type": "public",
-          "content": "",
-          "pulse_key": "58ab988907a7f105fe2825fa",
-          "role": null,
-          "expiration": null
-        },
-        "locked": false,
-        "name": "сТАнЧа",
-        "created": "2017-02-21T01:31:53.468",
-        "downvotes_count": 0,
-        "modified": "2017-02-21T01:31:53.468",
-        "export_count": 1,
-        "indicator_count": 17,
-        "votes_count": 0
-      },
-      {
-        "pulse_source": "web",
-        "subscriber_count": 69,
-        "is_following": false,
-        "modified_text": "55 days ago ",
-        "is_subscribing": false,
-        "references": [
-          "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf"
-        ],
-        "vote": 0,
-        "id": "58ab8350ac3cdc0e642c7b4d",
-        "industries": [
-          "Government",
-          "Healthcare"
-        ],
-        "author": {
-          "username": "nightingale",
-          "is_subscribed": false,
-          "avatar_url": "https://otx20-web-media.s3.amazonaws.com/media/avatars/user_25380/resized/80/avatar_468b7010b8.png",
-          "is_following": false,
-          "id": "5882b004b0633d097920c13a"
-        },
-        "cloned_from": null,
-        "comment_count": 0,
-        "follower_count": 0,
-        "public": true,
-        "indicator_type_counts": {
-          "URL": 2,
-          "domain": 3,
-          "CVE": 1,
-          "hostname": 2,
-          "MD5": 9
-        },
-        "TLP": "white",
-        "description": "On Feb 12th 2013, FireEye announced the discovery (http://blog.fireeye.com/research/2013/02/the-number-of-thebeast.html)\nof an Adobe Reader 0-day exploit which is used to drop a previously unknown, advanced piece of malware. We\ncalled this new malware “ItaDuke” because it reminded us of Duqu and because of the ancient Italian comments in the\nshellcode copied from Dante Aligheri’s Divine Comedy.",
-        "tags": [
-          "Russia"
-        ],
-        "in_group": false,
-        "is_modified": true,
-        "upvotes_count": 0,
-        "targeted_countries": [
-          "Ukraine",
-          "Belgium",
-          "Portugal",
-          "Romania",
-          "Czech Republic",
-          "Ireland",
-          "United States",
-          "Hungary"
-        ],
-        "groups": [],
-        "validator_count": 0,
-        "is_author": false,
-        "adversary": "APT 29",
-        "observation": {
-          "observation_created": "2017-02-21T00:01:21",
-          "description": "",
-          "title": "",
-          "access_reason": "",
-          "is_active": 1,
-          "access_type": "public",
-          "content": "",
-          "pulse_key": "58ab8350ac3cdc0e642c7b4d",
-          "role": null,
-          "expiration": null
-        },
-        "locked": false,
-        "name": "Miniduke (2013)",
-        "created": "2017-02-21T00:01:20.108",
-        "downvotes_count": 0,
-        "modified": "2017-03-07T13:59:13.446",
-        "export_count": 2,
-        "indicator_count": 17,
-        "votes_count": 0
-      }
-    ]
-  },
-  "base_indicator": {
-    "indicator": "1e1b0d16a16cf5c7f3a7c053ce78f515",
-    "description": "",
-    "title": "",
-    "access_reason": "",
-    "access_type": "public",
-    "content": "",
-    "type": "FileHash-MD5",
-    "id": 2657674
-  },
-  "validation": [],
-  "type": "md5"
-}
-
-
+     {
+       "indicator": "1e1b0d16a16cf5c7f3a7c053ce78f515",
+       "sections": [
+         "general",
+         "analysis"
+       ],
+       "type_title": "FileHash-MD5",
+       "pulse_info": {
+         "count": 4,
+         "references": [
+           "https://app.box.com/s/c95me2uocwoothfnapxrcjwfmynue4ri",
+           "https://labs.bitdefender.com/wp-content/uploads/downloads/2013/04/MiniDuke_Paper_Final.pdf",
+           "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf",
+           "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf"
+         ],
+         "pulses": [
+           {
+             "pulse_source": "web",
+             "subscriber_count": 63,
+             "is_following": false,
+             "modified_text": "59 days ago ",
+             "is_subscribing": false,
+             "references": [
+               "https://app.box.com/s/c95me2uocwoothfnapxrcjwfmynue4ri"
+             ],
+             "vote": 0,
+             "id": "58b8a46ddae7a90966de13e1",
+             "industries": [],
+             "author": {
+               "username": "nightingale",
+               "is_subscribed": false,
+               "avatar_url": "https://otx20-web-media.s3.amazonaws.com/media/avatars/user_25380/resized/80/avatar_468b7010b8.png",
+               "is_following": false,
+               "id": "5882b004b0633d097920c13a"
+             },
+             "cloned_from": null,
+             "comment_count": 0,
+             "follower_count": 0,
+             "public": true,
+             "indicator_type_counts": {
+               "hostname": 1,
+               "SHA256": 2,
+               "SHA1": 1,
+               "MD5": 2
+             },
+             "TLP": "white",
+             "description": "",
+             "tags": [],
+             "in_group": false,
+             "is_modified": false,
+             "upvotes_count": 0,
+             "targeted_countries": [],
+             "groups": [],
+             "validator_count": 0,
+             "is_author": false,
+             "adversary": "APT 29",
+             "observation": {
+               "observation_created": "2017-03-02T23:02:06",
+               "description": "",
+               "title": "",
+               "access_reason": "",
+               "is_active": 1,
+               "access_type": "public",
+               "content": "",
+               "pulse_key": "58b8a46ddae7a90966de13e1",
+               "role": null,
+               "expiration": null
+             },
+             "locked": false,
+             "name": "Analysis of a stage 3 Miniduke sample (2013)",
+             "created": "2017-03-02T23:02:05.888",
+             "downvotes_count": 0,
+             "modified": "2017-03-02T23:02:05.888",
+             "export_count": 2,
+             "indicator_count": 6,
+             "votes_count": 0
+           },
+           {
+             "pulse_source": "web",
+             "subscriber_count": 68,
+             "is_following": false,
+             "modified_text": "60 days ago ",
+             "is_subscribing": false,
+             "references": [
+               "https://labs.bitdefender.com/wp-content/uploads/downloads/2013/04/MiniDuke_Paper_Final.pdf"
+             ],
+             "vote": 0,
+             "id": "58b7f4dbfd95e73876f1a4fd",
+             "industries": [],
+             "author": {
+               "username": "nightingale",
+               "is_subscribed": false,
+               "avatar_url": "https://otx20-web-media.s3.amazonaws.com/media/avatars/user_25380/resized/80/avatar_468b7010b8.png",
+               "is_following": false,
+               "id": "5882b004b0633d097920c13a"
+             },
+             "cloned_from": null,
+             "comment_count": 0,
+             "follower_count": 0,
+             "public": true,
+             "indicator_type_counts": {
+               "URL": 14,
+               "domain": 4,
+               "CVE": 2,
+               "hostname": 2,
+               "MD5": 66
+             },
+             "TLP": "white",
+             "description": "This piece of malware is made of three components: pdf, main, payload. The PDF file embeds exploit code and a dropper that writes the “main” DLL component on the drive. Additionally, the original PDF also contains a clean PDF file used in the social engineering stage",
+             "tags": [
+               "miniduke",
+               "russia"
+             ],
+             "in_group": true,
+             "is_modified": false,
+             "upvotes_count": 0,
+             "targeted_countries": [],
+             "groups": [
+               {
+                 "name": "MISP FEED",
+                 "id": 76
+               }
+             ],
+             "validator_count": 0,
+             "is_author": false,
+             "adversary": "APT 29",
+             "observation": {
+               "observation_created": "2017-03-02T10:33:00",
+               "description": "",
+               "title": "",
+               "access_reason": "",
+               "is_active": 1,
+               "access_type": "public",
+               "content": "",
+               "pulse_key": "58b7f4dbfd95e73876f1a4fd",
+               "role": null,
+               "expiration": null
+             },
+             "locked": false,
+             "name": "A Closer Look at MiniDuke (2013)",
+             "created": "2017-03-02T10:32:59.819",
+             "downvotes_count": 0,
+             "modified": "2017-03-02T10:32:59.819",
+             "export_count": 6,
+             "indicator_count": 88,
+             "votes_count": 0
+           },
+           {
+             "pulse_source": "web",
+             "subscriber_count": 3,
+             "is_following": false,
+             "modified_text": "69 days ago ",
+             "is_subscribing": false,
+             "references": [
+               "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf"
+             ],
+             "vote": 0,
+             "id": "58ab988907a7f105fe2825fa",
+             "industries": [
+               "Government",
+               "Healthcare"
+             ],
+             "author": {
+               "username": "hsd1.tx.comcast.",
+               "is_subscribed": false,
+               "avatar_url": "https://otx.alienvault.com/static/img/default.png",
+               "is_following": false,
+               "id": "58ab91a4ac3cdc15332c7b4c"
+             },
+             "cloned_from": "58ab8350ac3cdc0e642c7b4d",
+             "comment_count": 0,
+             "follower_count": 0,
+             "public": true,
+             "indicator_type_counts": {
+               "URL": 2,
+               "domain": 3,
+               "CVE": 1,
+               "hostname": 2,
+               "MD5": 9
+             },
+             "TLP": "white",
+             "description": null,
+             "tags": [
+               "Russia"
+             ],
+             "in_group": false,
+             "is_modified": false,
+             "upvotes_count": 0,
+             "targeted_countries": [
+               "Ukraine",
+               "Belgium",
+               "Portugal",
+               "Romania",
+               "Czech Republic",
+               "Ireland",
+               "United States",
+               "Hungary"
+             ],
+             "groups": [],
+             "validator_count": 0,
+             "is_author": false,
+             "adversary": "Miniduke",
+             "observation": {
+               "observation_created": "2017-02-21T01:31:54",
+               "description": "",
+               "title": "",
+               "access_reason": "",
+               "is_active": 1,
+               "access_type": "public",
+               "content": "",
+               "pulse_key": "58ab988907a7f105fe2825fa",
+               "role": null,
+               "expiration": null
+             },
+             "locked": false,
+             "name": "сТАнЧа",
+             "created": "2017-02-21T01:31:53.468",
+             "downvotes_count": 0,
+             "modified": "2017-02-21T01:31:53.468",
+             "export_count": 1,
+             "indicator_count": 17,
+             "votes_count": 0
+           },
+           {
+             "pulse_source": "web",
+             "subscriber_count": 69,
+             "is_following": false,
+             "modified_text": "55 days ago ",
+             "is_subscribing": false,
+             "references": [
+               "https://kasperskycontenthub.com/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf"
+             ],
+             "vote": 0,
+             "id": "58ab8350ac3cdc0e642c7b4d",
+             "industries": [
+               "Government",
+               "Healthcare"
+             ],
+             "author": {
+               "username": "nightingale",
+               "is_subscribed": false,
+               "avatar_url": "https://otx20-web-media.s3.amazonaws.com/media/avatars/user_25380/resized/80/avatar_468b7010b8.png",
+               "is_following": false,
+               "id": "5882b004b0633d097920c13a"
+             },
+             "cloned_from": null,
+             "comment_count": 0,
+             "follower_count": 0,
+             "public": true,
+             "indicator_type_counts": {
+               "URL": 2,
+               "domain": 3,
+               "CVE": 1,
+               "hostname": 2,
+               "MD5": 9
+             },
+             "TLP": "white",
+             "description": "On Feb 12th 2013, FireEye announced the discovery (http://blog.fireeye.com/research/2013/02/the-number-of-thebeast.html)\nof an Adobe Reader 0-day exploit which is used to drop a previously unknown, advanced piece of malware. We\ncalled this new malware “ItaDuke” because it reminded us of Duqu and because of the ancient Italian comments in the\nshellcode copied from Dante Aligheri’s Divine Comedy.",
+             "tags": [
+               "Russia"
+             ],
+             "in_group": false,
+             "is_modified": true,
+             "upvotes_count": 0,
+             "targeted_countries": [
+               "Ukraine",
+               "Belgium",
+               "Portugal",
+               "Romania",
+               "Czech Republic",
+               "Ireland",
+               "United States",
+               "Hungary"
+             ],
+             "groups": [],
+             "validator_count": 0,
+             "is_author": false,
+             "adversary": "APT 29",
+             "observation": {
+               "observation_created": "2017-02-21T00:01:21",
+               "description": "",
+               "title": "",
+               "access_reason": "",
+               "is_active": 1,
+               "access_type": "public",
+               "content": "",
+               "pulse_key": "58ab8350ac3cdc0e642c7b4d",
+               "role": null,
+               "expiration": null
+             },
+             "locked": false,
+             "name": "Miniduke (2013)",
+             "created": "2017-02-21T00:01:20.108",
+             "downvotes_count": 0,
+             "modified": "2017-03-07T13:59:13.446",
+             "export_count": 2,
+             "indicator_count": 17,
+             "votes_count": 0
+           }
+         ]
+       },
+       "base_indicator": {
+         "indicator": "1e1b0d16a16cf5c7f3a7c053ce78f515",
+         "description": "",
+         "title": "",
+         "access_reason": "",
+         "access_type": "public",
+         "content": "",
+         "type": "FileHash-MD5",
+         "id": 2657674
+       },
+       "validation": [],
+       "type": "md5"
+     }
 
 </code>
 #Windows
