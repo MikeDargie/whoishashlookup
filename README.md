@@ -38,12 +38,13 @@
 
 <h2>How to query from remote host</h2>
 
-<h2>Linux</h2>
-
 <h3>Requirement:</h3>
 
 <h4>Linux Whois Client (default client - you can apt-get install it. apt-get install whois)</h4>
+<h3>OR</h3>
+<h4>Netcat on windows</h4>
 
+<h2>Linux</h2>
 
 <code>
 whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
