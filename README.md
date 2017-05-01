@@ -42,17 +42,20 @@
 
 <h3>Requirement:</h3>
 
-<h4>Whois (default client - you can apt-get install it. apt-get install whois)</h4>
+<h4>Linux Whois Client (default client - you can apt-get install it. apt-get install whois)</h4>
+
 
 <code>
 whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
 </code>
 
-<h4>SERVER = shareataxii.com</h4>
+<ul>
+<h4><li>SERVER = shareataxii.com</li></h4>
 
-<h4>TYPE = [ip | domain | hash | url]</h4>
+<h4><li>TYPE = [ip | domain | hash | url]</li></h4>
 
-<h4>OUTPUT FORMAT = json (any other input will give you csv output)</h4>
+<h4><li>OUTPUT FORMAT = json (any other input will give you csv output)</li></h4>
+</ul>
 
 <h3>Example results:</h3>
 <code>
