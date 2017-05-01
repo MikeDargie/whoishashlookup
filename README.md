@@ -1,3 +1,5 @@
+<h2>Information</h2>
+
 <p>Set-up to search for hashing from a local "whois server"</p>
 
 <h3><u>Requirements</u></h3>
@@ -5,10 +7,12 @@
 <h4>xinetd</h4>
 <h4>jq</h4>
 
-cd /etc/xinetd.d/
-vim whois
+<h3>GUIDE</h3>
 
-edit the file and add
+<p>cd /etc/xinetd.d</p>
+<p>vim whois</p>
+
+<p>#edit the file and add:</p>
 
 <code>
 
