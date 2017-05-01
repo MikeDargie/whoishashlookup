@@ -59,7 +59,6 @@ whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
 </ul>
 
 <h3>Example results:</h3>
-<iframe src="/default.asp" width="200" height="200" scrolling="yes">
 <code>
      
      Virus Total
@@ -461,7 +460,6 @@ whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
      }
 
 </code>
-</iframe>
 <h2>Windows</h2>
 
 <h3>Requirement:</h3>
