@@ -42,7 +42,7 @@ vim script.sh
 
 <code>
 
-#!/bin/bash
+     #!/bin/bash
 
 while read line1 line2 line3; do
     line3=${line3%$'\r'}
