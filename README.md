@@ -62,6 +62,8 @@ whois -h [SERVER] [VALUE] [TYPE] [OUTPUT FORMAT]
 
 <h3>Example results:</h3>
 <code>
+
+     whois -h shareataxii.com 1e1b0d16a16cf5c7f3a7c053ce78f515 hash no
      
      Virus Total
 
