@@ -1,6 +1,6 @@
 <h2>Information</h2>
 
-<p>Set-up to search for hashing from a local "whois server"</p>
+<p>This is a simple whois look-up tool for querying hash,ip,domain,url information from popular services like AlienVault OTX and Virus total. Currently it supports OTX and AV but more serivces could be added with with ease.</p>
 
 <h3><u>Requirements</u></h3>
 <h4>VirusTotal_API_Tool</h4>
@@ -44,7 +44,7 @@ while read line1 line2 line3; do
     line=${line1%$'\r'}
     echo -e "\n\nVirus Total\n\n"
     if [[ $line2 == 'hash' ]];then
-       /home/mike/VirusTotal_API_Tool/vtlite.py -s -v $line1
+       /location/of/VirusTotal_API_Tool/vtlite.py -s -v $line1
     else
        echo -e "\nNot a hash - skipping Virus Total lookup for now"
     fi
@@ -90,27 +90,25 @@ done
 
 </code>
 
-How to query from remote host
+<h2>How to query from remote host</h2>
 
 <h2>Linux</h2>
 
-Requirement:
+<h3>Requirement:</h3>
 
-Whois (default client - you can apt-get install it. apt-get install whois)
+<h4>Whois (default client - you can apt-get install it. apt-get install whois)</h4>
 
 <code>
 whois -h [SERVER] [TYPE] [OUTPUT FORMAT]
 </code>
 
-To complete a look up you have 3 options
+<h4>SERVER = shareataxii.com</h4>
 
-SERVER = shareataxii.com
+<h4>TYPE = [ip | domain | hash | url]</h4>
 
-TYPE = [ip | domain | hash | url]
+<h4>OUTPUT FORMAT = json (any other input will give you csv output)</h4>
 
-OUTPUT FORMAT = json (any other input will give you csv output)
-
-Example results:
+<h3>Example results:</h3>
 <code>
      
      Virus Total
@@ -514,9 +512,9 @@ Example results:
 </code>
 <h2>Windows</h2>
 
-Requirement:
+<h3>Requirement:</h3>
 
--ncat (whois clients will not work on windows)
+<h4>-ncat (whois clients will not work on windows)</h4>
 
 
 
