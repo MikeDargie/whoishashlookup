@@ -896,6 +896,6 @@ whois -h [SERVER] [VALUE] [TYPE] [OUTPUT FORMAT]
          "id": 2657674
        },
        "validation": [],
-       "type": "md5"
+       "type": "md5
      }
 </code>
