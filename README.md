@@ -65,7 +65,7 @@ whois -h [SERVER] [VALUE] [TYPE] [OUTPUT FORMAT]
 
      whois -h shareataxii.com 1e1b0d16a16cf5c7f3a7c053ce78f515 hash jq
      
-     Virus Total
+     Virus Total.
 
 
 
